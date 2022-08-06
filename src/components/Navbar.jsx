@@ -95,7 +95,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>TrendBazaar</Logo>
+          <Logo>TrendBazaar.com</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>

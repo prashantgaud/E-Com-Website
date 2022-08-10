@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
       id: 1,
-      img:"https://images.pexels.com/photos/1462637/pexels-photo-1462637.jpeg?cs=srgb&dl=pexels-anastasiya-gepp-1462637.jpg&fm=jpg",
+      img:"https://drscdn.500px.org/photo/1052321729/m%3D900/v2?sig=3a829f03a04981b404ae38523f074d004c921261b2fd0190ac8a8b41a1b431eb",
       title: "MONSOON SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 50% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",

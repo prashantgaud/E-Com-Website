@@ -1,15 +1,15 @@
 import React from 'react'
 import Announcement from '../components/Announcement'
-import Budgetdeal from '../components/Budgetdeal'
+import Budgetdeal from '../bannerscomponents/Budgetdeal'
 import Categories from '../components/Categories'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Newsletter from '../components/Newsletter'
 import Products from '../components/Products'
 import ShopByCategories from '../components/ShopByCategories'
-import Shopbyproducts from '../components/Shopbyproducts'
 import Slider from '../components/Slider'
-import TrendingNow from '../components/TrendingNow'
+import TrendingNow from '../bannerscomponents/TrendingNow'
+import Shopbyproducts from '../bannerscomponents/DealOfTheDay'
 
 const Home = () => {
   return (

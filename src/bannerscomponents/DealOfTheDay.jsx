@@ -3,19 +3,25 @@ import styled from 'styled-components'
 
 const Container = styled.div`
 height: 40px;
-background-color: none;
+background-color: white;
 color: black;
 display: flex;
 align-items: center;
 justify-content: center;
-font-size: 40px;
+font-size: 30px;
 font-weight: 600;
 margin: 5px 0px 5px 0px;
 `
-function TrendingNow() {
+
+
+
+
+const DealOfTheDay = () => {
   return (
-    <Container> TRENDING NOW </Container>
+    <Container>
+          DEALS OF THE DAY
+    </Container>
   )
 }
 
-export default TrendingNow
+export default DealOfTheDay

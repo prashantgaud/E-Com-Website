@@ -7,7 +7,7 @@ import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 
 
 const Container = styled.div`
-  height: 60px;
+  height: 70px;
  
 `;
 
@@ -27,7 +27,7 @@ const Left = styled.div`
 
 
 const Language = styled.span`
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
  
 `;
@@ -58,7 +58,8 @@ const Center = styled.div`
 `;
 
 const Logo = styled.h1`
-  font-weight: bold;
+  font-weight: 600;
+
 
 `;
 

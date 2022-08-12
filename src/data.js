@@ -20,6 +20,8 @@ export const sliderItems = [
       desc: "A NEW STYLE IN TOWN.",
       bg: "fbf0f4",
     },
+
+    
   ];
 
 
@@ -27,13 +29,13 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      img: "https://rukminim1.flixcart.com/image/880/1056/xif0q/t-shirt/o/g/r/s-gm6218-adidas-original-imag2cgxpzkxu4yg-bb.jpeg?q=50",
       title: "SHIRT STYLE!",
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://rukminim1.flixcart.com/image/880/1056/l1dwknk0/sweatshirt/o/t/v/m-gc6642-adidas-original-imagcyjhe7aqpren.jpeg?q=50",
+      title: "SWEAT SHIRTS",
     },
     {
       id: 3,

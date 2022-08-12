@@ -11,6 +11,8 @@ import MailIcon from '@mui/icons-material/Mail';
   
   const Container = styled.div`
     display: flex;
+    background-color: black;
+    color: white;
    
   `;
   
@@ -116,9 +118,9 @@ import MailIcon from '@mui/icons-material/Mail';
             <ListItem>Accessories</ListItem>
             <ListItem>My Account</ListItem>
             <ListItem>Order Tracking</ListItem>
+            <ListItem>Return Policy</ListItem>
             <ListItem>Wishlist</ListItem>
-            <ListItem>Wishlist</ListItem>
-            <ListItem>Terms</ListItem>
+            <ListItem>Terms of Use</ListItem>
           </List>
         </Center>
         <Right>

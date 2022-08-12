@@ -44,7 +44,7 @@ const Button = styled.button`
   width: 40%;
   border: none;
   padding: 15px 20px;
-  background-color: teal;
+  background-color: black;
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
@@ -63,9 +63,9 @@ const Login = () => {
       <Wrapper>
         <Title>SIGN IN</Title>
         <Form>
-          <Input placeholder="username" />
-          <Input placeholder="password" />
-          <Button>LOGIN</Button>
+          <Input placeholder="Username" />
+          <Input placeholder="Password" />
+          <Button type="submit"> LOGIN</Button>
           <Link>FORGET PASSWORD?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>

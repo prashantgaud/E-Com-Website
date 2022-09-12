@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Badge from '@mui/material/Badge';
 import SearchTwoToneIcon from '@mui/icons-material/SearchTwoTone';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
-
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 70px;
@@ -96,16 +96,25 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
+          <Link to="/" className="link">
           <Logo>TrendBazaar.com</Logo>
+          </Link>
         </Center>
         <Right>
+          <Link to="/register" className="link">
           <MenuItem>REGISTER</MenuItem>
+          </Link>
+          <Link to="/login" className="link">
           <MenuItem>SIGN IN</MenuItem>
+          </Link>
+
+          <Link to="/cart" className="link">
           <MenuItem>
           <Badge badgeContent={10} color="primary">
           <ShoppingBagIcon/>
           </Badge>
           </MenuItem>
+          </Link>
         </Right>
       </Wrapper>
     </Container>

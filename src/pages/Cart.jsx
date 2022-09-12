@@ -180,7 +180,7 @@ const Cart = () => {
                     <b>Product:</b> JESSIE THUNDER SHOES
                   </ProductName>
                   <ProductId>
-                    <b>ID:</b> 93813718293
+                    <b>ID:</b> 18293
                   </ProductId>
                   <ProductColor color="black" />
                   <ProductSize>
@@ -194,7 +194,7 @@ const Cart = () => {
                   <ProductAmount>2</ProductAmount>
                   <RemoveIcon />
                 </ProductAmountContainer>
-                <ProductPrice>$ 30</ProductPrice>
+                <ProductPrice>₹1000</ProductPrice>
               </PriceDetail>
             </Product>
             <Hr />
@@ -206,7 +206,7 @@ const Cart = () => {
                     <b>Product:</b> HAKURA T-SHIRT
                   </ProductName>
                   <ProductId>
-                    <b>ID:</b> 93813718293
+                    <b>ID:</b> 938137
                   </ProductId>
                   <ProductColor color="gray" />
                   <ProductSize>
@@ -220,7 +220,7 @@ const Cart = () => {
                   <ProductAmount>1</ProductAmount>
                   <RemoveIcon />
                 </ProductAmountContainer>
-                <ProductPrice>$ 20</ProductPrice>
+                <ProductPrice>1000</ProductPrice>
               </PriceDetail>
             </Product>
           </Info>
@@ -228,19 +228,19 @@ const Cart = () => {
             <SummaryTitle>ORDER SUMMARY</SummaryTitle>
             <SummaryItem>
               <SummaryItemText>Subtotal</SummaryItemText>
-              <SummaryItemPrice>$ 80</SummaryItemPrice>
+              <SummaryItemPrice>₹3000</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Estimated Shipping</SummaryItemText>
-              <SummaryItemPrice>$ 5.90</SummaryItemPrice>
+              <SummaryItemPrice>₹399</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem>
               <SummaryItemText>Shipping Discount</SummaryItemText>
-              <SummaryItemPrice>$ -5.90</SummaryItemPrice>
+              <SummaryItemPrice>₹399</SummaryItemPrice>
             </SummaryItem>
             <SummaryItem type="total">
               <SummaryItemText>Total</SummaryItemText>
-              <SummaryItemPrice>$ 80</SummaryItemPrice>
+              <SummaryItemPrice>₹3000</SummaryItemPrice>
             </SummaryItem>
             <Button>CHECKOUT NOW</Button>
           </Summary>
